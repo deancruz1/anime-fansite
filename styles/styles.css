@@ -11,3 +11,18 @@ body {
   height: 100vh;
   padding: 0;
 }
+
+.hero .wallpaper {
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.main-container {
+  position: absolute;
+  background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+  height: 100%;
+  width: 100%;
+}
