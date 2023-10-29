@@ -62,7 +62,6 @@
 
 .subcontainer {
   display: flex;
-  margin-top: 3rem;
   width: 90%;
   height: 85%;
 }
@@ -110,11 +109,11 @@
   display: inline-block;
   text-align: justify;
   width: 40.5rem;
-  margin-bottom: 3rem;
 }
 
 .image-container img{
-  width: 8vmin;
+  margin-top: 1rem;
+  width: 4.5rem;
   height: auto;
 }
 
@@ -122,13 +121,13 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .button-explore {
   border-radius: 50%;
-  width: 12rem;
-  height: 12rem;
+  width: 10rem;
+  height: 10rem;
   text-align: center;
   background: white;
   font-size: 2rem;
