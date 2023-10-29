@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;1,100&family=Poppins:wght@100;200;300&display=swap');
 
-html {
-  font-size: 16px;
+:root {
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-font-family: 'Barlow Condensed', sans-serif;
 }
 
 * {
   margin: 0;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
 }
 
-.navbar {
+.nav-link, .dropdown-item {
   font-size: 1.5rem;
 }
-
-
 
 @media (min-width: 992px) {
   #nav-hidden {
