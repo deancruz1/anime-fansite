@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;1,100&family=Poppins:wght@100;200;300&display=swap');
 
+html {
+  font-size: 16px;
+}
+
 * {
   margin: 0;
   font-family: 'Barlow Condensed', sans-serif;
