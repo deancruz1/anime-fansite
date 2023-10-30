@@ -1,6 +1,6 @@
 function changeBg(vid, title) {
   const video = document.querySelector('.bg-video');
-  video.src = `../assets/characters-page/bg/${vid}`;
+  video.src = `./assets/characters-page/bg/${vid}`;
   video.load();
 
   const contents = document.querySelectorAll('.content');
